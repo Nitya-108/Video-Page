@@ -45,3 +45,14 @@ body {
     font-size: 1.8em;
     color: #fff;
 }
+
+
+@keyframes fade-inout {
+    0% { opacity: 1;}
+    100% { opacity: 0;}
+}
+
+.content h1, p  {
+    animation: fade-inout 8s infinite alternate;
+}
+
